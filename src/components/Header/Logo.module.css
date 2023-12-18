@@ -1,0 +1,15 @@
+.logoContainer {
+	width: 25rem;
+	height: 12rem;
+	background-color: white;
+	display: flex;
+	/* align-items: center; */
+	clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%);
+	padding-top: 3rem;
+	padding-left: 5rem;
+}
+
+.logo {
+	width: 5rem;
+	height: 7rem;
+}
