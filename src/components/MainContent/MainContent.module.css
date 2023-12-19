@@ -1,0 +1,10 @@
+.mainSectionContainer {
+	position: fixed;
+	top: 10rem;
+	bottom: 0;
+	left: 0;
+	right: 8rem;
+	background-color: white;
+
+	display: flex;
+}

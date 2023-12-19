@@ -1,9 +1,7 @@
 .sidebarContainer {
-	position: fixed;
 	background-color: white;
-	top: 10rem;
-	bottom: 0;
 	width: 132px;
+	height: 100%;
 	box-shadow: 10px 0 5px rgba(0, 0, 0, 0.05);
 
 	display: flex;

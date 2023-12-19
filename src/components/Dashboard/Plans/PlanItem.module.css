@@ -1,0 +1,9 @@
+.planItemContainer {
+	height: 200px;
+	margin: 5px;
+
+	border: 1px solid rgb(240, 235, 235);
+	border-radius: 8px;
+
+	box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.05);
+}
