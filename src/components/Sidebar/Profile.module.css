@@ -1,0 +1,26 @@
+.profileContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 0;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.profileContainer img {
+	width: 70px;
+	height: 60px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.profileContainer span {
+	color: rgb(5, 122, 195);
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+.profileContainer p {
+	margin-top: 2px;
+	cursor: pointer;
+}

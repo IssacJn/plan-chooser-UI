@@ -1,0 +1,26 @@
+.itemContainer {
+	width: 120px;
+	height: 35px;
+
+	border: 1px solid rgb(235, 232, 232);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	margin-bottom: 15px;
+
+	cursor: pointer;
+}
+
+.itemContainer img {
+	width: 18px;
+	height: 18px;
+}
+
+.itemContainer p {
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 18px;
+}

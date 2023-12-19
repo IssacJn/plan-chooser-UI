@@ -1,0 +1,18 @@
+.logoutContainer {
+	height: 50px;
+	background-color: rgb(234, 247, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logoutContainer p {
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(50, 148, 208);
+}
+
+.logoutContainer img {
+	width: 30px;
+	height: 40px;
+}

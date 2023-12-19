@@ -1,14 +1,14 @@
 .logoContainer {
-	width: 25rem;
-	height: 12rem;
+	width: 22rem;
+	height: 10rem;
 	background-color: white;
 	clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%);
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-left: 5rem;
 	flex-shrink: 0;
 }
 
 .logo {
-	width: 5rem;
-	height: 7rem;
+	width: 4rem;
+	height: 6rem;
 }
