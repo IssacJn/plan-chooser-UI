@@ -9,7 +9,7 @@ function CompanyTitle() {
 					src='/company.png'
 					alt='companyLogo'
 				/>
-				<p className={styles.companyName}>XYX Enterprises Pvt. Ltd</p>
+				<p className={styles.companyName}>XYZ Enterprises Pvt. Ltd</p>
 			</div>
 			<div className={styles.arrowContainer}>
 				<img
