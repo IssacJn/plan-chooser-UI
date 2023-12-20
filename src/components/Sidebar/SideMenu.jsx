@@ -4,13 +4,13 @@ import styles from "./SideMenu.module.css";
 
 function SideMenu() {
 	return (
-		<div className={styles.sideMenuContainer}>
-			<MenuItem />
-			<MenuItem />
-			<MenuItem />
-			<MenuItem />
-			<MenuItem />
-		</div>
+		<aside className={styles.sideMenuContainer}>
+			<MenuItem icon='/dashboardIcon.png' name='Dashboard' />
+			<MenuItem icon='/perksIcon.png' name='Perks' />
+			<MenuItem icon='/addonIcon.png' name='Addons' />
+			<MenuItem icon='/faqIcon.png' name='FAQ' />
+			<MenuItem icon='/supportIcon.png' name='Support' />
+		</aside>
 	);
 }
 

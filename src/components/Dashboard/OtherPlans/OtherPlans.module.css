@@ -1,7 +1,6 @@
 .OtherPlansContainer {
-	margin-top: 10px;
+	margin-top: 20px;
 
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 100px;
+	display: flex;
+	justify-content: space-between;
 }

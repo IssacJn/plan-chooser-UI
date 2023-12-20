@@ -1,0 +1,43 @@
+.container {
+	padding-left: 18px;
+	padding-right: 5px;
+}
+
+.questionPara {
+	margin-bottom: 3px;
+}
+
+.container img {
+	width: 25px;
+	height: 25px;
+}
+
+.container p {
+	display: flex;
+	align-items: center;
+}
+
+.container span {
+	font-size: 12px;
+}
+
+.featuresButtonContainer {
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+	margin-top: 12px;
+}
+
+.featuresButton {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-right: 5px;
+}
+
+.triangle {
+	height: 12px;
+	width: 12px;
+	clip-path: polygon(100% 46%, 0 0, 0 100%);
+	color: rgb(251, 227, 171);
+}

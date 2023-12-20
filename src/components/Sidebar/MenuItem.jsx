@@ -1,10 +1,10 @@
 import styles from "./MenuItem.module.css";
 
-function MenuItem() {
+function MenuItem({ icon, name }) {
 	return (
 		<div className={styles.itemContainer}>
-			<img src='/dashboardIcon.png' />
-			<p>Dashboard</p>
+			<img src={icon} alt='icon' />
+			<p>{name}</p>
 		</div>
 	);
 }

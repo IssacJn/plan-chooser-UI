@@ -1,0 +1,48 @@
+.container {
+	padding-top: 20px;
+	padding-left: 18px;
+}
+
+.container h1 {
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+
+.previousPrice {
+	position: relative;
+	display: inline-block;
+}
+
+.previousPrice::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid red;
+	transform: rotate(8deg);
+	transform-origin: 0 0;
+}
+
+.newPrice {
+	margin-top: 3px;
+	margin-bottom: 8px;
+	font-size: 20px;
+}
+
+.newPrice span {
+	font-size: 15px;
+}
+
+/* button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+ */

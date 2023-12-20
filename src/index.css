@@ -11,4 +11,7 @@ html {
 body {
 	font-family: sans-serif;
 	background-color: #dce5fa;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }

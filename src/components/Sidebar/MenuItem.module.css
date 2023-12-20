@@ -14,6 +14,11 @@
 	cursor: pointer;
 }
 
+.itemContainer:hover {
+	background-color: rgb(160, 230, 255);
+	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .itemContainer img {
 	width: 18px;
 	height: 18px;

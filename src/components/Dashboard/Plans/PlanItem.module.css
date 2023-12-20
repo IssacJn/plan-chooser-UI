@@ -1,9 +1,15 @@
 .planItemContainer {
-	height: 200px;
+	height: 300px;
+	min-width: 250px;
+
 	margin: 5px;
 
 	border: 1px solid rgb(240, 235, 235);
 	border-radius: 8px;
 
-	box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.05);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sectionDivider {
+	margin: 15px 15px 10px 15px;
 }

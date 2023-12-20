@@ -1,9 +1,15 @@
 .otherPlanItemContainer {
-	height: 150px;
+	height: 180px;
+	width: 480px;
 	margin: 5px;
+	padding-top: 20px;
+	padding-left: 10px;
 
 	border: 1px solid rgb(240, 235, 235);
 	border-radius: 8px;
 
 	box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.05);
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
