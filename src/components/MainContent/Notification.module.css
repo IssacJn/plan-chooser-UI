@@ -1,10 +1,5 @@
-.container {
-	position: relative;
-	background-color: white;
-}
-
 .bellContaier {
-	position: absolute;
+	position: fixed;
 	background-color: white;
 	top: 120px;
 	right: 5px;
@@ -21,7 +16,7 @@
 }
 
 .notCount {
-	position: absolute;
+	position: fixed;
 	top: 125px;
 	right: 10px;
 	width: 14px;
