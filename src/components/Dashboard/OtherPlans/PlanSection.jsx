@@ -3,7 +3,6 @@ import styles from "./PlanSection.module.css";
 import SpecsButton from "./SpecsButton";
 
 function PlanSection({ buttonContent, type, description, color }) {
-	console.log(color);
 	return (
 		<div className={styles.container}>
 			<SpecsButton buttonContent={buttonContent} color={color} />

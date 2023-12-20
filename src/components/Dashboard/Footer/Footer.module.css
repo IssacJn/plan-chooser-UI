@@ -1,12 +1,11 @@
 .footer {
-	position: relative;
+	display: flex;
+	justify-content: end;
 	margin-top: 20px;
 }
 
 .footer span {
-	position: absolute;
-	right: 5px;
-
 	font-size: 12px;
+	margin-right: 35px;
 	color: rgb(50, 148, 208);
 }

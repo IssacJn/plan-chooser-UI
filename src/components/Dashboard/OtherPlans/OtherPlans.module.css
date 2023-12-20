@@ -1,6 +1,16 @@
 .OtherPlansContainer {
 	margin-top: 20px;
 
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 80px;
+	row-gap: 30px;
+}
+
+/* For displaying the selector responsively */
+@media (max-width: 1275px) {
+	.OtherPlansContainer {
+		grid-template-columns: 1fr;
+		row-gap: 15px;
+	}
 }

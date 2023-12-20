@@ -1,6 +1,7 @@
 .planItemContainer {
 	height: 300px;
 	min-width: 250px;
+	max-width: 300px;
 
 	margin: 5px;
 

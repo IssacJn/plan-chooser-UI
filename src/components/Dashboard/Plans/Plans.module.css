@@ -1,6 +1,24 @@
 .plansContainer {
 	margin-top: 10px;
 
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 50px;
+}
+
+/* For displaying the plan items responsively */
+@media (max-width: 1275px) {
+	.plansContainer {
+		grid-template-columns: 1fr 1fr;
+		column-gap: 20px;
+		row-gap: 15px;
+	}
+}
+
+@media (max-width: 1085px) {
+	.plansContainer {
+		grid-template-columns: 1fr;
+		column-gap: 20px;
+		row-gap: 15px;
+	}
 }

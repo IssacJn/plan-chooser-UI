@@ -1,13 +1,25 @@
 .planDurationSelectorContainer {
-	position: relative;
 	height: 25px;
+	margin-top: 15px;
+	padding-right: 30px;
+	display: flex;
+	justify-content: end;
+}
+
+/* For displaying the selector responsively */
+@media (max-width: 1275px) {
+	.planDurationSelectorContainer {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 1085px) {
+	.planDurationSelectorContainer {
+		justify-content: start;
+	}
 }
 
 .planDurationSelector {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 200px;
 	height: 28px;
 	border: 1px solid rgb(85, 81, 81);
 	border-radius: 12px;
