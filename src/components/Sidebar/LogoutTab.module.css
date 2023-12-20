@@ -10,9 +10,11 @@
 	font-size: 12px;
 	font-weight: bold;
 	color: rgb(50, 148, 208);
+	cursor: pointer;
 }
 
 .logoutContainer img {
 	width: 30px;
 	height: 40px;
+	cursor: pointer;
 }
